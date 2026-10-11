@@ -1,0 +1,21 @@
+{
+  "name": "cc-gauge",
+  "version": "0.1.0",
+  "description": "A gauge above the prompt showing your 5-hour and 7-day limits, context window and prompt-cache hit rate, styled for the terminal and the desktop app. Based on Jetson Chan's CC-Usage-Band.",
+  "author": {
+    "name": "SummErOK"
+  },
+  "homepage": "https://github.com/sapronlee/CC-Gauge",
+  "repository": "https://github.com/sapronlee/CC-Gauge",
+  "license": "MIT",
+  "keywords": [
+    "usage",
+    "rate-limit",
+    "context",
+    "cache",
+    "status",
+    "gauge",
+    "mod"
+  ],
+  "types": "./types/index.d.ts"
+}
