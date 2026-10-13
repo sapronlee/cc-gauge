@@ -53,7 +53,7 @@
 - **两端原生适配**：
   - 终端里是一行字符，图标可以用 Nerd Font 或普通 Unicode 字符，并且会根据窗口宽度自动调整显示的内容。
   - 桌面端是一行铺满宽度、两端对齐的 SVG 图形，额度用进度条显示，上下文用 2×10 的点阵灯显示，并且支持浅色和深色模式。
-- **和其他插件共存**：别的插件也可以在输入框上方画内容（比如 [CC-Doc-Review](https://github.com/sapronlee/CC-Doc-Review)）。不管谁先加载，它们的内容都排在本插件上面，不会被挡住。
+- **和其他插件共存**：别的插件也可以在输入框上方画内容（比如 [CC-Doc-Review](https://github.com/sapronlee/cc-doc-review)）。不管谁先加载，它们的内容都排在本插件上面，不会被挡住。
 - **轻量**：不读文件、不运行程序、不联网，只读取 Claude Code 本来就有的用量数据。
 
 ## 使用要求
@@ -79,8 +79,8 @@
 如果只想在一个会话里临时试用，可以从本地克隆后加载：
 
 ```bash
-git clone https://github.com/sapronlee/CC-Gauge.git
-claude --plugin-dir CC-Gauge
+git clone https://github.com/sapronlee/cc-gauge.git
+claude --plugin-dir cc-gauge
 ```
 
 **更新**
